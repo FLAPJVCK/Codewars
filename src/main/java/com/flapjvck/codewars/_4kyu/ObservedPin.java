@@ -7,10 +7,6 @@ import java.util.stream.Collectors;
  * https://www.codewars.com/kata/5263c6999e0f40dee200059d
  */
 public class ObservedPin {
-    public static void main(String[] args) {
-        System.out.println(getPINs("11"));
-    }
-
     public static List<String> getPINs(String observed) {
         List<String> result = new ArrayList<>();
         String[] digits = observed.split("");
